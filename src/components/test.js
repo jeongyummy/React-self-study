@@ -1,3 +1,0 @@
-const jeong = {
-  test: "",
-};
