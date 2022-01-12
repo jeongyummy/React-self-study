@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function User({ user, onRemove, onToggle }) {
+  useEffect(() => {
+    console.log("1");
+    return () => {
+      console.log("22");
+    };
+  }, []);
   return (
     <div>
       <b
